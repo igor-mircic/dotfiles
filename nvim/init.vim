@@ -5,6 +5,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Plug 'honza/vim-snippets'
+
     Plug 'ap/vim-css-color'
     Plug 'cakebaker/scss-syntax.vim'
     Plug 'hail2u/vim-css3-syntax'
