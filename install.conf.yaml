@@ -11,6 +11,7 @@
     ~/.imwheelrc: xorg/imwheelrc
     ~/.config/qtile: qtile
     ~/.config/qtile/autostart.sh: xorg/autostart.sh
+    ~/.config/alacritty: alacritty
     ~/.zshrc: zsh/zshrc
     ~/.config/nvim: nvim
 
