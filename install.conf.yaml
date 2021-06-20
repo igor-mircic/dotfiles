@@ -5,6 +5,10 @@
 - clean: ["~"]
 
 - link:
+    ~/.xinitrc: xorg/xinitrc
+    ~/.Xresources: xorg/Xresources
+    ~/.Xmodmap: xorg/Xmodmap
+    ~/.imwheelrc: xorg/imwheelrc
     ~/.zshrc: zsh/zshrc
     ~/.config/nvim: nvim
 

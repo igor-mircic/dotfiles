@@ -1,0 +1,10 @@
+! remap grave and Escape for shinobi keyboard
+keycode 9 = grave asciitilde 
+keycode 49 = Escape
+
+! remap Caps_Lock to Escape 
+clear lock 
+keycode 66 = Escape
+
+! remape menu to super
+keycode 135 = Super_R
