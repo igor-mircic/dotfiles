@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "nvim/snips/vscode-textmate/vscode-angular-snippets"]
+	path = nvim/snips/vscode-textmate/vscode-angular-snippets
+	url = https://github.com/johnpapa/vscode-angular-snippets

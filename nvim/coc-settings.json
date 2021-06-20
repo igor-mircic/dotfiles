@@ -34,5 +34,8 @@
   "diagnostic.errorSign": "•",
   "diagnostic.warningSign": "•",
   "diagnostic.infoSign": "•",
-  "snippets.ultisnips.directories": ["UltiSnips", "~/.vim/snips"]
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  "snippets.textmateSnippetsRoots": [
+    "~/.config/nvim/snips/vscode-textmate/vscode-angular-snippets/snippets"
+  ]
 }
