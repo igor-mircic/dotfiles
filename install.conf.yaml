@@ -6,6 +6,11 @@
 
 - link:
     ~/.zshrc: zsh/zshrc
+    ~/.config/nvim: nvim
+
+- create:
+    - ~/.config/nvim/autoload
+    - ~/.config/nvim/undodir
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
