@@ -12,6 +12,7 @@
     ~/.config/qtile: qtile
     ~/.config/qtile/autostart.sh: xorg/autostart.sh
     ~/.config/alacritty: alacritty
+    ~/.config/rofi: rofi
     ~/.zshrc: zsh/zshrc
     ~/.config/nvim: nvim
 
