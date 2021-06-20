@@ -16,13 +16,12 @@ compinit
 promptinit
 
 # My Aliases
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias doom="~/.emacs.d/bin/doom"
+alias ll="ls -lah"
+
 # Linux version of OSX pbcopy and pbpaste.
 alias pbcopy=’xsel — clipboard — input’
 alias pbpaste=’xsel — clipboard — output’
 
-alias ll="ls -lah"
 
 # Environment variables
 export QT_QPA_PLATFORMTHEME=qt5ct
