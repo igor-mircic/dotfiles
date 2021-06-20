@@ -1,11 +1,8 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'gruvbox-community/gruvbox'
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " Plug 'honza/vim-snippets'
 
     Plug 'ap/vim-css-color'
     Plug 'cakebaker/scss-syntax.vim'
@@ -22,7 +19,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 call plug#end()
 
-source ~/.config/nvim/vimscript/airline.vim
+set showtabline=2
+set statusline=%F
+" set noshowmode
+
 source ~/.config/nvim/vimscript/sets.vim
 source ~/.config/nvim/vimscript/keys.vim
 source ~/.config/nvim/vimscript/coc.vim
