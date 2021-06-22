@@ -1,8 +1,11 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'gruvbox-community/gruvbox'
+   " " Plug 'liuchengxu/vim-which-key'
+    
     Plug 'vim-airline/vim-airline'
-    " Plug 'liuchengxu/vim-which-key'
+    Plug 'zefei/vim-wintabs'
+    Plug 'zefei/vim-wintabs-powerline'
 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -22,9 +25,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 call plug#end()
 
-set showtabline=2
-" set statusline=%F
-" set noshowmode
 
 source ~/.config/nvim/vimscript/sets.vim
 source ~/.config/nvim/vimscript/keys.vim
@@ -40,3 +40,6 @@ set background=dark
 "   au!
 "   autocmd BufEnter * silent! lcd %:p:h
 " augroup END
+
+set showtabline=2
+" set noshowmode
