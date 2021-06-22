@@ -9,7 +9,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'cakebaker/scss-syntax.vim'
     Plug 'hail2u/vim-css3-syntax'
     Plug 'mustache/vim-mustache-handlebars'
-    
+
     Plug 'jiangmiao/auto-pairs'
     Plug 'tpope/vim-commentary'
     Plug 'tpope/vim-surround'
@@ -32,9 +32,9 @@ source ~/.config/nvim/vimscript/airline.vim
 
 let g:gruvbox_invert_selection='0'
 colorscheme gruvbox
-set background=dark 
+set background=dark
 
-" augroup igors_cmds 
+" augroup igors_cmds
 "   au!
 "   autocmd BufEnter * silent! lcd %:p:h
 " augroup END
