@@ -9,7 +9,7 @@ nnoremap <leader>vs :w<cr>:source ~/.config/nvim/init.vim<cr>
 
 " fzf
 nnoremap <leader>ll :Lines<cr>
-nnoremap <leader>lf :GFiles<cr>
+nnoremap <leader>lf :Files<cr>
 nnoremap <leader>lb :Buffers<CR>
 nnoremap <leader>lg :Rg<CR>
 nnoremap <leader>n <C-^>

@@ -1,6 +1,7 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'gruvbox-community/gruvbox'
+    Plug 'vim-airline/vim-airline'
 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -15,17 +16,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+
     Plug 'mbbill/undotree'
 
 call plug#end()
 
 set showtabline=2
-set statusline=%F
+" set statusline=%F
 " set noshowmode
 
 source ~/.config/nvim/vimscript/sets.vim
 source ~/.config/nvim/vimscript/keys.vim
 source ~/.config/nvim/vimscript/coc.vim
+source ~/.config/nvim/vimscript/airline.vim
 
 let g:gruvbox_invert_selection='0'
 colorscheme gruvbox

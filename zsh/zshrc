@@ -5,6 +5,8 @@ setopt autocd extendedglob nomatch notify
 unsetopt beep
 bindkey -v
 
+export TERM=xterm-256color
+
 # Autocomplition
 zstyle :compinstall filename '/home/igor/.zshrc'
 setopt COMPLETE_ALIASES

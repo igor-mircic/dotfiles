@@ -242,4 +242,3 @@ autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | end
 
 " My keymaps
 nnoremap <leader>prw :CocSearch <C-R>=expand("<cword>")<CR><CR>
-

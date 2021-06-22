@@ -4,3 +4,9 @@
 [submodule "nvim/snips/vscode-textmate/vscode-angular-snippets"]
 	path = nvim/snips/vscode-textmate/vscode-angular-snippets
 	url = https://github.com/johnpapa/vscode-angular-snippets
+[submodule "LunarVim"]
+	path = LunarVim
+	url = https://github.com/igor-mircic/LunarVim
+[submodule "SpaceVim"]
+	path = SpaceVim
+	url = https://github.com/igor-mircic/SpaceVim
