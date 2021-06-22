@@ -2,6 +2,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'gruvbox-community/gruvbox'
     Plug 'vim-airline/vim-airline'
+    " Plug 'liuchengxu/vim-which-key'
 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -27,6 +28,7 @@ set showtabline=2
 
 source ~/.config/nvim/vimscript/sets.vim
 source ~/.config/nvim/vimscript/keys.vim
+" source ~/.config/nvim/vimscript/which-key.vim
 source ~/.config/nvim/vimscript/coc.vim
 source ~/.config/nvim/vimscript/airline.vim
 
