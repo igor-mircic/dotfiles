@@ -14,6 +14,9 @@
     ~/.config/alacritty: alacritty
     ~/.config/rofi: rofi
     ~/.zshrc: zsh/zshrc
+    ~/.bashrc: bash/bashrc
+    ~/.bash_profile: bash/bash_profile
+    ~/.inputrc: bash/inputrc
     ~/.config/nvim: nvim
 
 - create:
