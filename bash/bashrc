@@ -10,6 +10,7 @@ export HISTCONTROL=erasedups
 shopt -s autocd
 
 alias ls='ls --color=auto'
+alias ll='ls -la | fzf'
 
 PS1='\[\e[0;93m\]\W \[\e[0;92m\]\$ \[\e[0m\]'
 
