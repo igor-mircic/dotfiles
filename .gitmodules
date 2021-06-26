@@ -7,6 +7,3 @@
 [submodule "LunarVim"]
 	path = LunarVim
 	url = https://github.com/igor-mircic/LunarVim
-[submodule "SpaceVim"]
-	path = SpaceVim
-	url = https://github.com/igor-mircic/SpaceVim
