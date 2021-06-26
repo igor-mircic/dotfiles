@@ -50,5 +50,5 @@ fi
 
 #test -f ~/.Xkeymap && xkbcomp ~/.Xkeymap $DISPLAY
 
-# exec xmonad
-exec qtile
+# exec qtile
+exec awesome
