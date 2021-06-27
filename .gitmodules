@@ -7,3 +7,6 @@
 [submodule "LunarVim"]
 	path = LunarVim
 	url = https://github.com/igor-mircic/LunarVim
+[submodule "im-awesome/awesome-sharedtags"]
+	path = im-awesome/awesome-sharedtags
+	url = https://github.com/Drauthius/awesome-sharedtags
