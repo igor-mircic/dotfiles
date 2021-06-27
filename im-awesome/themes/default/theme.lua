@@ -15,7 +15,7 @@ theme.font          = "MesloLGS NF 9"-- "sans 8"
 theme.taglist_font  = "MesloLGS NF 12"-- "sans 8"
 
 theme.bg_normal     = "#222222"
-theme.bg_focus      = "#665c54" --"#535d6c"
+theme.bg_focus      = "#3c3836" --"#535d6c"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#3c3836"--"#444444"
 theme.bg_systray    = theme.bg_normal
