@@ -1,4 +1,4 @@
 set laststatus=2
 
 set statusline=
-set statusline+=%t\ 
+set statusline+=%F\ 

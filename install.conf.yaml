@@ -11,9 +11,7 @@
     ~/.imwheelrc: xorg/imwheelrc
     ~/.xprofile: xorg/xprofile
     ~/.config/qtile: qtile
-    ~/.config/qtile/autostart.sh: xorg/autostart.sh
     ~/.config/awesome: im-awesome
-    ~/.config/awesome/autostart.sh: xorg/autostart.sh
     ~/.config/alacritty: alacritty
     ~/.config/rofi: rofi
     ~/.zshrc: zsh/zshrc
