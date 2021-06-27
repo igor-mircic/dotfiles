@@ -11,7 +11,7 @@
     ~/.imwheelrc: xorg/imwheelrc
     ~/.config/qtile: qtile
     ~/.config/qtile/autostart.sh: xorg/autostart.sh
-    ~/.config/awesome: awesome
+    ~/.config/awesome: im-awesome
     ~/.config/awesome/autostart.sh: xorg/autostart.sh
     ~/.config/alacritty: alacritty
     ~/.config/rofi: rofi
