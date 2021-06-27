@@ -87,12 +87,16 @@ awful.layout.layouts = {
 -- {{{ Tags
 local tags = sharedtags({
     { name = "main", layout = awful.layout.layouts[2] },
-    { name = "www", layout = awful.layout.layouts[10] },
-    { name = "game", layout = awful.layout.layouts[1] },
-    { name = "misc", layout = awful.layout.layouts[2] },
-    { name = "chat", screen = 2, layout = awful.layout.layouts[2] },
-    { layout = awful.layout.layouts[2] },
-    { screen = 2, layout = awful.layout.layouts[2] }
+    { name = "www", layout = awful.layout.layouts[2] },
+    { name = "ref", layout = awful.layout.layouts[2] },
+    { name = "tut", layout = awful.layout.layouts[2] },
+    { name = "fb", screen = 2, layout = awful.layout.layouts[2] },
+    { name = "discord", screen = 2, layout = awful.layout.layouts[2] },
+    { name = "slack", screen = 2, layout = awful.layout.layouts[2] },
+    { name = "call", screen = 2, layout = awful.layout.layouts[2] },
+    { name = "music", screen = 2, layout = awful.layout.layouts[2] },
+    -- { layout = awful.layout.layouts[2] },
+    -- { screen = 2, layout = awful.layout.layouts[2] }
 })
 -- }}}
 
