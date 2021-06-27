@@ -20,7 +20,7 @@ require("main.error-handling")
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+beautiful.init("~/.config/awesome/themes/default/theme.lua")
 beautiful.wallpaper = RC.vars.wallpaper
 -- }}}
 
@@ -98,4 +98,3 @@ awful.rules.rules = main.rules(
 -- {{{ Signals
 require("main.signals")
 -- }}}
-

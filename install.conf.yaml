@@ -9,6 +9,7 @@
     ~/.Xresources: xorg/Xresources
     ~/.Xmodmap: xorg/Xmodmap
     ~/.imwheelrc: xorg/imwheelrc
+    ~/.xprofile: xorg/xprofile
     ~/.config/qtile: qtile
     ~/.config/qtile/autostart.sh: xorg/autostart.sh
     ~/.config/awesome: im-awesome
