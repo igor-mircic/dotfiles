@@ -1,10 +1,13 @@
 " IMPORTANT
 set nocompatible
 set encoding=utf-8
+set termguicolors
 filetype plugin indent on
 syntax on 
 
-set path=.,,**
+" set path=.,,**
+set path=.,src,node_nodules
+set suffixesadd=.js,.jsx,.ts,.html,.css,.scss
 
 set hidden
 set nowritebackup
