@@ -19,9 +19,9 @@
     ~/.bash_profile: bash/bash_profile
     ~/.inputrc: bash/inputrc
     ~/.config/nvim: nvim
+    ~/.config/zathura: zathura
 
 - create:
-    - ~/.config/qtile
     - ~/.config/nvim/autoload
     - ~/.config/nvim/undodir
 
