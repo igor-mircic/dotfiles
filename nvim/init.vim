@@ -23,6 +23,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 call plug#end()
 
+let mapleader=" "
+
 source ~/.config/nvim/vimscript/coc.vim
 source ~/.config/nvim/vimscript/statusline.vim
 source ~/.config/nvim/vimscript/tabline.vim
