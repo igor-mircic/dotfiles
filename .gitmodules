@@ -10,3 +10,6 @@
 [submodule "im-awesome/awesome-sharedtags"]
 	path = im-awesome/awesome-sharedtags
 	url = https://github.com/Drauthius/awesome-sharedtags
+[submodule "NvChad"]
+	path = NvChad
+	url = https://github.com/igor-mircic/NvChad
