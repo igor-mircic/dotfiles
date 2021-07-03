@@ -13,3 +13,6 @@
 [submodule "NvChad"]
 	path = NvChad
 	url = https://github.com/igor-mircic/NvChad
+[submodule "im-nvim"]
+	path = im-nvim
+	url = https://github.com/igor-mircic/im-nvim
