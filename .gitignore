@@ -1,4 +1,5 @@
 nvim/undodir
+nvim-bak/autoload
 nvim/autoload
 VSCodeNeovim/autoload
 nvim/.netrwhist

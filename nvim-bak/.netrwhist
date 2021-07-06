@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/igor/repos/birra-33/src/styles'
+let g:netrw_dirhist_8='/home/igor/repos/birra-33/src'
+let g:netrw_dirhist_7='/home/igor/dotfiles/awesome'
+let g:netrw_dirhist_6='/home/igor/repos/countries-presentation-app/src'
+let g:netrw_dirhist_5='/home/igor/dotfiles/nvim/autoload/plugged/coc.nvim'
+let g:netrw_dirhist_4='/home/igor/repos/countries-presentation-app/src/app/pages'
+let g:netrw_dirhist_3='/home/igor'
+let g:netrw_dirhist_2='/home/igor/dotfiles/nvim/vimscript'
+let g:netrw_dirhist_1='/home/igor/dotfiles/nvim'

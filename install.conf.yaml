@@ -11,15 +11,14 @@
     ~/.imwheelrc: xorg/imwheelrc
     ~/.xprofile: xorg/xprofile
     ~/.config/qtile: qtile
-    ~/.config/awesome: im-awesome
+    ~/.config/awesome: awesome
     ~/.config/alacritty: alacritty
     ~/.config/rofi: rofi
     ~/.zshrc: zsh/zshrc
     ~/.bashrc: bash/bashrc
     ~/.bash_profile: bash/bash_profile
     ~/.inputrc: bash/inputrc
-    ~/.config/nvim: nvim 
-    ~/.config/VSCodeNeovim: VSCodeNeovim
+    ~/.config/nvim: nvim
     ~/.config/zathura: zathura
 
 - create:
