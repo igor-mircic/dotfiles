@@ -1,18 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
-[submodule "nvim/snips/vscode-textmate/vscode-angular-snippets"]
-	path = nvim/snips/vscode-textmate/vscode-angular-snippets
-	url = https://github.com/johnpapa/vscode-angular-snippets
-[submodule "LunarVim"]
-	path = LunarVim
-	url = https://github.com/igor-mircic/LunarVim
 [submodule "im-awesome/awesome-sharedtags"]
 	path = im-awesome/awesome-sharedtags
 	url = https://github.com/Drauthius/awesome-sharedtags
-[submodule "NvChad"]
-	path = NvChad
-	url = https://github.com/igor-mircic/NvChad
-[submodule "im-nvim"]
-	path = im-nvim
-	url = https://github.com/igor-mircic/im-nvim
