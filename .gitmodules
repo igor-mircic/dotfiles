@@ -4,3 +4,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/igor-mircic/nvim
+[submodule "awesome"]
+	path = awesome
+	url = git@github.com:igor-mircic/awesome.git
