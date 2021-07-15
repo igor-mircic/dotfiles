@@ -20,4 +20,4 @@ export NVM_DIR="$HOME/.nvm"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-alias luamake=/home/igor/.config/nvim/lua-language-server/3rd/luamake/compile/luamake
+eval "$(lua /usr/share/z.lua/z.lua --init bash enhanced once fzf)"
