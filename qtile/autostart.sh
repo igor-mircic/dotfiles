@@ -1,1 +1,0 @@
-/home/igor/dotfiles/xorg/autostart.sh
