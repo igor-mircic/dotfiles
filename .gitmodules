@@ -1,9 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
-[submodule "awesome/awesome-sharedtags"]
-	path = awesome/awesome-sharedtags
-	url = https://github.com/Drauthius/awesome-sharedtags
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/igor-mircic/nvim
