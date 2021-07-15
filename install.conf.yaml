@@ -22,7 +22,8 @@
     ~/.config/zathura: zathura
 
 - create:
-    - ~/.config/nvim/undo
+    - ~/.config/nvim/autoload
+    - ~/.config/nvim/undodir
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
