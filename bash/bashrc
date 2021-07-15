@@ -12,7 +12,7 @@ shopt -s autocd
 alias ls='ls --color=auto'
 alias ll='ls -la | fzf'
 
-PS1='\[\e[0;93m\]\w\n\[\e[0;92m\]\$ \[\e[0m\]'
+# PS1='\[\e[0;93m\]\w\n\[\e[0;92m\]\$ \[\e[0m\]'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -20,4 +20,6 @@ export NVM_DIR="$HOME/.nvm"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+eval "$(starship init bash)"
 eval "$(lua /usr/share/z.lua/z.lua --init bash enhanced once fzf)"
+
