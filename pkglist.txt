@@ -1,0 +1,8 @@
+ttf-dejavu
+ttf-joypixels
+ttf-ms-fonts
+ttf-ubraille
+ttf-unifont
+noto-fonts-emoji
+nerd-fonts-jetbrains-mono
+hack-font-ligature-nerd-font-git
