@@ -7,3 +7,6 @@
 [submodule "awesome"]
 	path = awesome
 	url = git@github.com:igor-mircic/awesome.git
+[submodule "LunarVim"]
+	path = LunarVim
+	url = https://github.com/igor-mircic/LunarVim
