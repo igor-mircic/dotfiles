@@ -2,9 +2,9 @@ lxsession &
 
 xinput set-prop 9 'libinput Accel Profile Enabled' 0, 1 & 
 xinput set-prop 9 'libinput Accel Speed' -0.88 &
-imwheel &
+# imwheel &
 
-xset r rate 250 25
+xset r rate 250 25 &
 
 xsetroot -solid '#1d2021' &
 # hsetroot -solid '#1d2021' &

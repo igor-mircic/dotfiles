@@ -6,8 +6,9 @@
 
 - link:
     ~/.xinitrc: xorg/xinitrc
+    ~/.config/systemd: systemd
+    ~/.config/kmonad: kmonad
     ~/.Xresources: xorg/Xresources
-    ~/.Xmodmap: xorg/Xmodmap
     ~/.imwheelrc: xorg/imwheelrc
     ~/.xprofile: xorg/xprofile
     ~/.config/awesome: awesome
