@@ -1,25 +1,55 @@
 (defcfg
   input  (device-file "/dev/input/by-id/usb-SEMICO_USB_Gaming_Keyboard-event-kbd")
-  output (uinput-sink "kmonad-keyboard")
 
+  output (uinput-sink
+    "kmonad-keyboard"
+    "sleep 0.2s; xset r rate 250 25; sleep 0.2s; setxkbmap -option compose:menu")
+
+  cmp-seq ralt
   fallthrough true
-
   allow-cmd true
 )
 
 (defsrc
   esc  1    2    3    4    5    6    7    8    9    0    -    =    bspc
-  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
-  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]
+  caps a    s    d    f    g    h    j    k    l    ;    '    \    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
   lctl lmet lalt           spc            ralt cmp  rctl
 )
 
-(deflayer qwerty
+(defalias
+	esc (tap-next-release esc (layer-toggle vi))
+)
+
+(deflayer default 
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
-  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
-  esc a    s    d    f    g    h    j    k    l    ;    '    ret
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]
+  @esc a    s    d    f    g    h    j    k    l    ;    '    \    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
-  lctl lmet lalt           spc            ralt cmp  rctl
+  lctl lmet lalt          spc            ralt cmp  rctl
 )
 
+(defalias 
+  l left
+  r right
+  u up
+  d down
+)
+
+(deflayer vi
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    @u   _    _    _    _    _    _    _    _    _    _
+  _    @l   @d  @r    _    _    @l   @d   @u   @r   -    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _              _              _    _    _
+)
+
+;; Layer template
+;; (deflayer name
+;;   _    _    _    _    _    _    _    _    _    _    _    _    _    _
+;;   _    _    _    _    _    _    _    _    _    _    _    _    _
+;;   _    _    _    _    _    _    _    _    _    _    _    _    _    _
+;;   _    _    _    _    _    _    _    _    _    _    _    _
+;;   _    _    _              _              _    _    _
+;; ) 
