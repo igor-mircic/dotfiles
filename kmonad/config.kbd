@@ -20,12 +20,14 @@
 
 (defalias
 	esc (tap-next-release esc (layer-toggle vi))
+	tv (tap-next-release tab (layer-toggle vi))
+	ec (tap-next-release esc lctl)
 )
 
 (deflayer default 
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
-  tab  q    w    e    r    t    y    u    i    o    p    [    ]
-  @esc a    s    d    f    g    h    j    k    l    ;    '    \    ret
+  @tv  q    w    e    r    t    y    u    i    o    p    [    ]
+  @ec a    s    d    f    g    h    j    k    l    ;    '    \    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
   lctl lmet lalt          spc            ralt cmp  rctl
 )
@@ -39,8 +41,8 @@
 
 (deflayer vi
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    @u   _    _    _    _    _    _    _    _    _    _
-  _    @l   @d  @r    _    _    @l   @d   @u   @r   -    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    @l   @d   @u   @r   -    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _              _              _    _    _
 )

@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.sneak": true,
+    "vim.easymotion": true
+}
