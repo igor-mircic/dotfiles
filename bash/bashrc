@@ -22,6 +22,3 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(starship init bash)"
 eval "$(lua /usr/share/z.lua/z.lua --init bash enhanced once fzf)"
-
-
-alias luamake=/home/igor/.cache/nvim/nlua/sumneko_lua/lua-language-server/3rd/luamake/luamake
