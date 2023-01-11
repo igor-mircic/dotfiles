@@ -1,0 +1,6 @@
+[edit]
+    command = "code"
+    args = ["--wait"]
+[git]
+    autoCommit = true
+    autoPush = true
