@@ -1,7 +1,6 @@
 [edit]
     command = "code"
     args = ["--wait"]
-    watch = true
 [git]
     autoCommit = true
     autoPush = true

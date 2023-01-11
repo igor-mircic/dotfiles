@@ -101,4 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Starship prompt
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
